@@ -1,0 +1,196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		357E1C7C1E5D770F003FD862 /* Gfx.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = Gfx.s; sourceTree = "<group>"; };
+		359247301E4E695B00A12B3E /* io.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = io.s; sourceTree = "<group>"; };
+		35BA496A1886BBE3006870D9 /* SummonMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SummonMain.c; sourceTree = "<group>"; };
+		35BA496C1886BBEF006870D9 /* Ambulance.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ambulance.wav; sourceTree = "<group>"; };
+		35BA496D1886BBEF006870D9 /* Boom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Boom.wav; sourceTree = "<group>"; };
+		746D78E114ED9A8400CC738F /* Makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; path = Makefile; sourceTree = "<group>"; };
+		9C5443AD2BCEFF07003BB3BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9C5443AE2BCF09A5003BB3BF /* Dungeon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dungeon.png; sourceTree = "<group>"; };
+		9C5443AF2BCFB2F0003BB3BF /* io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = io.h; sourceTree = "<group>"; };
+		9C5443B02BCFB3DA003BB3BF /* DrivingNightime.mod */ = {isa = PBXFileReference; lastKnownFileType = file; path = DrivingNightime.mod; sourceTree = "<group>"; };
+		9C5443B12BCFC985003BB3BF /* Sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sprites.png; sourceTree = "<group>"; };
+		9C5443B22BCFC99B003BB3BF /* Sprites.grit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sprites.grit; sourceTree = "<group>"; };
+		9C5443B32BCFCCB6003BB3BF /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		9C5443B42BCFCFE3003BB3BF /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		9C5443B52BCFCFE4003BB3BF /* Mob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mob.h; sourceTree = "<group>"; };
+		9C5443B62BCFDF35003BB3BF /* Player.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Player.c; sourceTree = "<group>"; };
+		9C5443B72BCFEBC0003BB3BF /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
+		9C5443B82BCFED42003BB3BF /* Projectile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Projectile.c; sourceTree = "<group>"; };
+		9C5443B92BD00B2A003BB3BF /* Gfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gfx.h; sourceTree = "<group>"; };
+		9C5443BA2BD01BA5003BB3BF /* Enemy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Enemy.c; sourceTree = "<group>"; };
+		9C5443BB2BD01FF2003BB3BF /* SummonMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummonMain.h; sourceTree = "<group>"; };
+		9C5443BC2BD03196003BB3BF /* Levels.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Levels.c; sourceTree = "<group>"; };
+		9C5443BD2BD03196003BB3BF /* Levels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Levels.h; sourceTree = "<group>"; };
+		A4E891991889C882007ED6D7 /* Dungeon.grit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dungeon.grit; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		35BA496B1886BBEF006870D9 /* maxmod_data */ = {
+			isa = PBXGroup;
+			children = (
+				9C5443B02BCFB3DA003BB3BF /* DrivingNightime.mod */,
+				35BA496C1886BBEF006870D9 /* Ambulance.wav */,
+				35BA496D1886BBEF006870D9 /* Boom.wav */,
+			);
+			path = maxmod_data;
+			sourceTree = "<group>";
+		};
+		742141B214E7EA40003EBFD3 = {
+			isa = PBXGroup;
+			children = (
+				9C5443AD2BCEFF07003BB3BF /* README.md */,
+				746D78E014ED9A6D00CC738F /* makefile */,
+				A48CC0251618E65200465E20 /* source */,
+				A4E891981889C882007ED6D7 /* graphics */,
+				35BA496B1886BBEF006870D9 /* maxmod_data */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+			wrapsLines = 0;
+		};
+		746D78E014ED9A6D00CC738F /* makefile */ = {
+			isa = PBXGroup;
+			children = (
+				746D78E114ED9A8400CC738F /* Makefile */,
+			);
+			name = makefile;
+			sourceTree = "<group>";
+		};
+		A48CC0251618E65200465E20 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				9C5443BB2BD01FF2003BB3BF /* SummonMain.h */,
+				35BA496A1886BBE3006870D9 /* SummonMain.c */,
+				9C5443BD2BD03196003BB3BF /* Levels.h */,
+				9C5443BC2BD03196003BB3BF /* Levels.c */,
+				9C5443B52BCFCFE4003BB3BF /* Mob.h */,
+				9C5443B32BCFCCB6003BB3BF /* Player.h */,
+				9C5443B62BCFDF35003BB3BF /* Player.c */,
+				9C5443B72BCFEBC0003BB3BF /* Projectile.h */,
+				9C5443B82BCFED42003BB3BF /* Projectile.c */,
+				9C5443B42BCFCFE3003BB3BF /* Enemy.h */,
+				9C5443BA2BD01BA5003BB3BF /* Enemy.c */,
+				9C5443B92BD00B2A003BB3BF /* Gfx.h */,
+				357E1C7C1E5D770F003FD862 /* Gfx.s */,
+				9C5443AF2BCFB2F0003BB3BF /* io.h */,
+				359247301E4E695B00A12B3E /* io.s */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		A4E891981889C882007ED6D7 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				A4E891991889C882007ED6D7 /* Dungeon.grit */,
+				9C5443AE2BCF09A5003BB3BF /* Dungeon.png */,
+				9C5443B22BCFC99B003BB3BF /* Sprites.grit */,
+				9C5443B12BCFC985003BB3BF /* Sprites.png */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A45BB8C91618FB840009569D /* Summon */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A45BB8CC1618FB840009569D /* Build configuration list for PBXLegacyTarget "Summon" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = Summon;
+			passBuildSettingsInEnvironment = 1;
+			productName = NitroGrafx;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		742141B414E7EA40003EBFD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = 742141B714E7EA40003EBFD3 /* Build configuration list for PBXProject "Summon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 742141B214E7EA40003EBFD3;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45BB8C91618FB840009569D /* Summon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		742141B514E7EA40003EBFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVKITARM = "$(DEVKITPRO)/devkitARM";
+				DEVKITPRO = /opt/devkitpro;
+			};
+			name = Debug;
+		};
+		742141B614E7EA40003EBFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVKITARM = "$(DEVKITPRO)/devkitARM";
+				DEVKITPRO = /opt/devkitpro;
+			};
+			name = Release;
+		};
+		A45BB8CA1618FB840009569D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Summon;
+			};
+			name = Debug;
+		};
+		A45BB8CB1618FB840009569D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Summon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		742141B714E7EA40003EBFD3 /* Build configuration list for PBXProject "Summon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742141B514E7EA40003EBFD3 /* Debug */,
+				742141B614E7EA40003EBFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45BB8CC1618FB840009569D /* Build configuration list for PBXLegacyTarget "Summon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45BB8CA1618FB840009569D /* Debug */,
+				A45BB8CB1618FB840009569D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 742141B414E7EA40003EBFD3 /* Project object */;
+}

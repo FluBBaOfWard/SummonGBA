@@ -1,0 +1,7 @@
+build
+*.elf
+*.gba
+*.sav
+*.zip
+Summon.xcodeproj/project.xcworkspace/xcuserdata
+Summon.xcodeproj/xcuserdata
